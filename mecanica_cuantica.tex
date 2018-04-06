@@ -1,0 +1,93 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\decimalpoint
+\usepackage{fullpage}
+\usepackage[pdffitwindow,colorlinks,citecolor={red},linkcolor={blue}]{hyperref}
+
+\title{Mecánica Cuántica: Las Matemáticas del Micro-Universo}
+\author{Dr. en C. Reinaldo Arturo Zapata Peña}
+\date{}
+
+\begin{document}
+\maketitle
+
+La mecánica cuántica surge a partir de la necesidad de describir procesos de la
+naturaleza que no tienen explicación en el marco teórico de la física clásica.
+% 
+En los primeros años del siglo XX la comunidad científica tenía acumulado una
+serie de problemas fundamentales que no podían resolver, no debido a la
+complejidad de los mismos, sino debido a la falta de una teoría que describiera
+su naturaleza. 
+% 
+Mas allá de esto, las posibles soluciones postuladas a dichos problemas caían
+en errores y la teoría física, que se consideraba completa hasta ese entonces,
+fue cuestionada desde sus fundamentos.
+% 
+La búsqueda a la solución a estos problemas se intensificó durante las primeras
+décadas del siglo XX por la comunidad científica abarcando figuras importantes
+de la física y las matemáticas. La búsqueda partió del hecho de que la
+mecánica newtoniana no es directamente aplicable al estudio del átomo y,
+% 
+de esta manera, la mecánica cuántica florece como una nueva teoría que permite
+la descripción de sistemas cuánticos microscópicos, como los átomos y
+moléculas, y macroscópicos como los superconductores y láseres, entre otros.
+
+Históricamente el problema del \emph{cuerpo negro} tiene gran importancia pues
+fue el primero cuya descripción reveló la necesidad del desarrollo de esta
+nueva teoría. 
+% 
+Se puede definir como cuerpo negro ideal, que se encuentra a una temperatura
+$T$ (absoluta), a un sistema que se caracteriza por absorber prácticamente toda
+la radiación incidente sobre él \cite{planck2013theory}.
+% 
+De esta forma, el modelado típico de un cuerpo negro consiste en una cavidad
+hueca metálica a la que se le hace una una pequeña perforación; toda la
+radiación que entra es absorbida tras numerosas reflexiones en el interior.
+% 
+Acorde con la teoría electromagnética clásica la radiación que escapa es la
+correspondiente a la de un cuerpo negro dicha temperatura que además tiene
+componentes en todo el rango del espectro electromagnético. De esta manera la
+energía radiada por unidad de área en todas las longitudes de onda es
+\begin{equation}\label{eq:radiacion}
+u = \int _{0}^{\infty} \rho (\omega, T) d\omega,
+\end{equation}
+donde 
+% 
+\begin{equation}
+\rho(\omega, T) = \frac{\omega^2}{\pi^{2}C^{3}}kT
+\end{equation}
+% 
+es la densidad espectral de la radiación emitida. La
+Eq. \eqref{eq:radiacion} indica entonces que un cuerpo negro podría liberar una
+cantidad infinita de energía, contradiciendo el principio de conservación de la
+energía.
+
+Por otro lado, la Ley de Stefan–Boltzmann describe la potencia radiada por un
+cuerpo negro en términos de su temperatura estableciendo que la energía total
+radiada por unidad de área a lo largo de todas las longitudes de onda por
+unidad de tiempo es directamente proporcional a la cuarta potencia de la
+temperatura termodinámica de la temperatura del cuerpo negro
+\begin{equation}\label{eq:ley-stefan-boltzmann}
+u = aT^{4},
+\end{equation}
+donde $a =4 \sigma/c$, $\sigma$ es la constante de Stefan–Boltzmann y $c$ es la
+velocidad de la luz. 
+
+
+% The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature. Specifically, the Stefan–Boltzmann law states that the total energy radiated per unit surface area of a black body across all wavelengths per unit time 
+
+% ⋆ j^{\star} (also known as the black-body radiant emittance) is directly proportional to the fourth power of the black body's thermodynamic temperature T:
+
+
+
+\bibliography{mecanica_cuantica.bib}
+\bibliographystyle{plain}
+
+\end{document}
+
+
+
+
