@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[twocolumn]{article}
 
 \usepackage{amsmath}
 \usepackage[utf8]{inputenc}
@@ -6,35 +6,51 @@
 \decimalpoint
 \usepackage{fullpage}
 \usepackage[pdffitwindow,colorlinks,citecolor={red},linkcolor={blue}]{hyperref}
+% \usepackage{notoccite}
 
-\title{Mecánica Cuántica: Las Matemáticas del Micro-Universo}
+
+\title{Mecánica Cuántica: Las Matemáticas del Nano-Universo}
 \author{Dr. en C. Reinaldo Arturo Zapata Peña}
 \date{}
 
 \begin{document}
 \maketitle
 
-La mecánica cuántica surge a partir de la necesidad de describir procesos de la
-naturaleza que no tienen explicación en el marco teórico de la física clásica
-siendo una nueva teoría que permite la descripción de sistemas cuánticos
-microscópicos, como los átomos y moléculas, y macroscópicos como los
-superconductores y láseres, entre otros.
+Las matemáticas son una ciencia que mediante un lenguaje formal y especializado
+ayuda a plantear y resolver problemas. Las ciencias naturales se han valido de
+éstas para explicar diversos fenómenos ayudando a postular leyes que los
+describen. Desde los el origen de los sistemas de numeración, el desarrollo de
+la geometría primitiva, el desarrollo del cálculo, el álgebra matricial y el
+álgebra de Gilbert, las matemáticas han sido utilizadas para dar solución a
+distintos problemas que el ser humano se ha ido planteando a lo largo de la
+historia \cite{boyer2011history}. En la actualidad, las matemáticas son usadas
+en ámbitos muy variados como las ciencias sociales como economía
+\cite{blavatskyy18MSC, lindsay17GEB, yokote17GEB}, psicología \cite{liu18BJMSP,
+kang18BJMSP}, ciencias políticas \cite{moberg12MSS}, sociología
+\cite{gokhan18JMS}, medicina y biología \cite{anderson05MMB, bokes18MMB,
+brinks15MMB, korobeinikov05MMB, mcginty15MMB, taylorking18MMB, lo17IEEETBCS} y
+las ciencias naturales e ingeniería \cite{zapata16PSSB, shkrebti17AST,
+zapata17PRB, dzvonkovskaya18IEEEAESM, chou18IEEETAP, beres16IEEEJESTPE,
+xie17IEEEPJ, demitras18IEEEJSTQE}.
+
+La mecánica cuántica es una rama de la física que surge a partir de la
+necesidad de describir procesos de la naturaleza que no tienen explicación en
+el marco teórico de la física clásica siendo una nueva teoría que permite la
+descripción de sistemas cuánticos microscópicos, como los átomos y moléculas, y
+macroscópicos como los superconductores y láseres, entre otros.
 % 
 Históricamente el problema del \emph{cuerpo negro} en equilibrio térmico a una
-temperatura $T$ tiene gran importancia pues fue el primero cuya descripción
-reveló la necesidad del desarrollo de esta nueva teoría.
+temperatura $T$ (en escala absoluta) tiene gran importancia pues fue el primero
+cuya descripción reveló la necesidad del desarrollo de esta nueva teoría.
 % 
 Se puede definir como cuerpo negro ideal, a un sistema que se caracteriza por
 absorber toda la radiación incidente sobre él y se puede modelar mediante una
-cavidad hueca metálica a la que se le hace una una pequeña perforación. Toda la
-radiación que entra es absorbida tras numerosas reflexiones en el interior y,
-además, acorde a la teoría electromagnética clásica, un cuerpo negro en
+cavidad hueca metálica a la que se le hace una una pequeña perforación. De esta
+manera, toda la radiación que entra es absorbida tras numerosas reflexiones en
+el interior. Acorde a la teoría electromagnética clásica, un cuerpo negro en
 equilibrio térmico emitirá radiación en todos los rangos de energía
-\cite{planck2013theory}.
-
-La potencia radiada en todas direcciones por unidad de área de la superficie de
-un cuerpo negro en función de su temperatura absoluta $T$ es descrita por la
-ley de Stefan-Boltzmann
+\cite{planck2013theory} y la potencia radiada, en todas direcciones, por unidad
+de área en función de su temperatura es descrita por la ley de Stefan-Boltzmann
 % 
 \begin{equation}\label{eq:ley-stefan-boltzmann}
 j = \sigma T^{4},
@@ -58,7 +74,6 @@ donde $\rho(\omega, T)$ es la densidad espectral de radiación.
 
 
 
-
 % La Ley de Rayleigh–Jeans describe de forma clásica la radiancia\footnote{Flujo
 % de radiación en una superficie por unidad de ángulo sólido por unidad de área
 % proyectada.}, $B_{\lambda}(T)$ en función de la longitud de onda $\lambda$,
@@ -76,7 +91,8 @@ donde $\rho(\omega, T)$ es la densidad espectral de radiación.
 % donde $c$ es la velocidad de la luz, $K_{B}$ es la constante de Boltzmann, 
 
 \bibliography{mecanica_cuantica.bib}
-\bibliographystyle{plain}
+% \bibliographystyle{plain}
+\bibliographystyle{unsrt}
 
 \end{document}
 
